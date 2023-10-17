@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-size: 22px;
+    font-size: 18px; /* Adjusted font size */
 }
 
 .container {
@@ -33,12 +33,12 @@ tr:nth-child(odd) {
 th {
     background-color: #ff8576;
     color: white;
-    padding: 20px;
+    padding: 10px 20px; /* Adjusted padding */
 }
 
 .noBorder {
     border: none !important;
-    padding: 20px;
+    padding: 10px 20px; /* Adjusted padding */
 }
 
 .button-1 {
@@ -49,14 +49,14 @@ th {
     color: #FFFFFF;
     cursor: pointer;
     font-family: "Arial", sans-serif;
-    font-size: 20px;
+    font-size: 16px; /* Adjusted font size */
     font-weight: 600;
-    height: 70px;
+    height: 50px; /* Adjusted height */
     line-height: 50px;
     list-style: none;
-    margin: 15px;
+    margin: 10px; /* Adjusted margin */
     outline: none;
-    padding: 30px 36px;
+    padding: 10px 16px; /* Adjusted padding */
     position: relative;
     text-align: center;
     text-decoration: none;

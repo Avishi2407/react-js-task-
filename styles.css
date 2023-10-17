@@ -1,0 +1,72 @@
+body {
+    background: #ffcccb;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 22px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #f8a5c2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffc3a0;
+}
+
+th {
+    background-color: #ff8576;
+    color: white;
+    padding: 20px;
+}
+
+.noBorder {
+    border: none !important;
+    padding: 20px;
+}
+
+.button-1 {
+    background-color: #ff6b6b;
+    border-radius: 12px;
+    border: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    height: 70px;
+    line-height: 50px;
+    list-style: none;
+    margin: 15px;
+    outline: none;
+    padding: 30px 36px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+    background-color: #ff4d4d;
+}
